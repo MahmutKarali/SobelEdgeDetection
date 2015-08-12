@@ -1,0 +1,27 @@
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\bin\Debug\İmageProc.exe.config
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\bin\Debug\İmageProc.exe
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\bin\Debug\İmageProc.pdb
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\obj\Debug\İmageProc.Form1.resources
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\obj\Debug\İmageProc.Properties.Resources.resources
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\obj\Debug\İmageProc.csproj.GenerateResource.Cache
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\obj\Debug\İmageProc.exe
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\obj\Debug\İmageProc.pdb
+c:\users\karali\documents\visual studio 2013\Projects\İmageProc\İmageProc\obj\Debug\İmageProc.csprojResolveAssemblyReference.cache
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\bin\Debug\İmageProc.exe.config
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\obj\Debug\İmageProc.exe
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\obj\Debug\İmageProc.pdb
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\bin\Debug\İmageProc.exe
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\bin\Debug\İmageProc.pdb
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\obj\Debug\İmageProc.csprojResolveAssemblyReference.cache
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\obj\Debug\İmageProc.Form1.resources
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\obj\Debug\İmageProc.Properties.Resources.resources
+C:\Users\Karali\Documents\Visual Studio 2013\Projects\İmageProc C#\İmageProc\obj\Debug\İmageProc.csproj.GenerateResource.Cache
+C:\vs13 projeler\İmageProc C#\İmageProc\bin\Debug\İmageProc.exe.config
+C:\vs13 projeler\İmageProc C#\İmageProc\obj\Debug\İmageProc.exe
+C:\vs13 projeler\İmageProc C#\İmageProc\bin\Debug\İmageProc.exe
+C:\vs13 projeler\İmageProc C#\İmageProc\bin\Debug\İmageProc.pdb
+C:\vs13 projeler\İmageProc C#\İmageProc\obj\Debug\İmageProc.csprojResolveAssemblyReference.cache
+C:\vs13 projeler\İmageProc C#\İmageProc\obj\Debug\İmageProc.Form1.resources
+C:\vs13 projeler\İmageProc C#\İmageProc\obj\Debug\İmageProc.Properties.Resources.resources
+C:\vs13 projeler\İmageProc C#\İmageProc\obj\Debug\İmageProc.csproj.GenerateResource.Cache
+C:\vs13 projeler\İmageProc C#\İmageProc\obj\Debug\İmageProc.pdb
