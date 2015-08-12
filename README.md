@@ -1,2 +1,2 @@
-![Alt text](/screenshots/screenshot.png " " )
+![Alt text](/screenshot.png " " )
 
