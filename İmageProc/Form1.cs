@@ -43,7 +43,7 @@ namespace İmageProc
 
             int[,] TotalGx = new int[bitmap.Width, bitmap.Height];
             int[,] TotalGy = new int[bitmap.Width, bitmap.Height];
-            int[,] GTotal = new int[bitmap.Width, bitmap.Height];
+            int[,] GTotal = new int[bitmap.Width , bitmap.Height];
 
             bitmap2 = new Bitmap(bitmap.Width, bitmap.Height);
 
@@ -69,32 +69,40 @@ namespace İmageProc
 
                     if (TotalGx[i, j] < 0) { TotalGx[i, j] = 0; }
                     if (TotalGx[i, j] > 255) { TotalGx[i, j] = 255; }
+
+                    TotalGy[i, j] = Gy[0, 0] * a.G + Gy[0, 1] * b.G + Gy[0, 2] * c.G
+                                  + Gy[1, 0] * d.G + Gy[1, 1] * f.G + Gy[1, 2] * g.G
+                                  + Gy[2, 0] * h.G + Gy[2, 1] * l.G + Gy[2, 2] * n.G;
+
+                    if (TotalGy[i, j] < 0) { TotalGy[i, j] = 0; }
+                    if (TotalGy[i, j] > 255) { TotalGy[i, j] = 255; }
+
                 }
 
-                for (int k = 1; k < bitmap.Width - 1; k++)
-                {
-                    for (int j = 1; j < bitmap.Height - 1; j++)
-                    {
-                        Color a = bitmap.GetPixel(k - 1, j - 1);//[0][0]
-                        Color b = bitmap.GetPixel(k - 1, j);    //[0][1]
-                        Color c = bitmap.GetPixel(k - 1, j + 1);//[0][2]
+                //for (int k = 1; k < bitmap.Width - 1; k++)
+                //{
+                //    for (int j = 1; j < bitmap.Height - 1; j++)
+                //    {
+                //        Color a = bitmap.GetPixel(k - 1, j - 1);//[0][0]
+                //        Color b = bitmap.GetPixel(k - 1, j);    //[0][1]
+                //        Color c = bitmap.GetPixel(k - 1, j + 1);//[0][2]
 
-                        Color d = bitmap.GetPixel(k, j - 1);    //[1][0]
-                        Color f = bitmap.GetPixel(k, j);        //[1][1]
-                        Color g = bitmap.GetPixel(k, j + 1);    //[1][2]
+                //        Color d = bitmap.GetPixel(k, j - 1);    //[1][0]
+                //        Color f = bitmap.GetPixel(k, j);        //[1][1]
+                //        Color g = bitmap.GetPixel(k, j + 1);    //[1][2]
 
-                        Color h = bitmap.GetPixel(k + 1, j - 1);//[2][0]
-                        Color l = bitmap.GetPixel(k + 1, j);    //[2][1]
-                        Color n = bitmap.GetPixel(k + 1, j + 1); //[2][2]
+                //        Color h = bitmap.GetPixel(k + 1, j - 1);//[2][0]
+                //        Color l = bitmap.GetPixel(k + 1, j);    //[2][1]
+                //        Color n = bitmap.GetPixel(k + 1, j + 1); //[2][2]
 
-                        TotalGy[k, j] = Gy[0, 0] * a.G + Gy[0, 1] * b.G + Gy[0, 2] * c.G
-                                   + Gy[1, 0] * d.G + Gy[1, 1] * f.G + Gy[1, 2] * g.G
-                                   + Gy[2, 0] * h.G + Gy[2, 1] * l.G + Gy[2, 2] * n.G;
+                //        TotalGy[k, j] = Gy[0, 0] * a.G + Gy[0, 1] * b.G + Gy[0, 2] * c.G
+                //                   + Gy[1, 0] * d.G + Gy[1, 1] * f.G + Gy[1, 2] * g.G
+                //                   + Gy[2, 0] * h.G + Gy[2, 1] * l.G + Gy[2, 2] * n.G;
 
-                        if (TotalGy[k, j] < 0) { TotalGy[k, j] = 0; }
-                        if (TotalGy[k, j] > 255) { TotalGy[k, j] = 255; }
-                    }
-                }
+                //        if (TotalGy[k, j] < 0) { TotalGy[k, j] = 0; }
+                //        if (TotalGy[k, j] > 255) { TotalGy[k, j] = 255; }
+                //    }
+                //}
 
                 for (int k = 1; k < bitmap.Width - 1; k++)
                 {
