@@ -31,7 +31,7 @@ We assign the result matrix totalgx and totalgy
 ![Alt text](/gxGy.png " " )
 
 
-Finally, we show such matrix display with PictureBox collect the GX and gyu
+Finally, we show such matrix display with PictureBox collect the TotalGx and TotalGy.
 
 ![Alt text](/gTotal.png " " )
 
