@@ -25,3 +25,12 @@ C:\Users\mahmut\Desktop\02.04.2015\İmageProc\obj\Debug\IP Work 3 02.04.csprojRe
 C:\Users\mahmut\Desktop\02.04.2015\İmageProc\obj\Debug\İmageProc.Form1.resources
 C:\Users\mahmut\Desktop\02.04.2015\İmageProc\obj\Debug\İmageProc.Properties.Resources.resources
 C:\Users\mahmut\Desktop\02.04.2015\İmageProc\obj\Debug\IP Work 3 02.04.csproj.GenerateResource.Cache
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\bin\Debug\İmageProc.exe.config
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\obj\Debug\İmageProc.exe
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\obj\Debug\İmageProc.pdb
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\bin\Debug\İmageProc.exe
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\bin\Debug\İmageProc.pdb
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\obj\Debug\IP Work 3 02.04.csprojResolveAssemblyReference.cache
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\obj\Debug\İmageProc.Form1.resources
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\obj\Debug\İmageProc.Properties.Resources.resources
+C:\Users\mahmut\Desktop\bitBucket\sobelEdgeDetection\İmageProc\obj\Debug\IP Work 3 02.04.csproj.GenerateResource.Cache

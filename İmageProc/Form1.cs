@@ -15,8 +15,7 @@ namespace İmageProc
     {
         Bitmap bitmap;
         Image file;
-        Bitmap bitmap2;  
-         
+        Bitmap bitmap2; 
         public Form1()
         {
             InitializeComponent();
@@ -30,26 +29,8 @@ namespace İmageProc
                 bitmap = new Bitmap(openFileDialog1.FileName);
                 pictureBox1.Image = file;
             }
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-        }
+        }  
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-        }
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-        }
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-        }
-        private void label1_Click(object sender, EventArgs e)
-        {
-        }
         private void button2_Click_1(object sender, EventArgs e)
         {
             int[,] Gx = new int[3, 3]{ {-1, 0, 1 }, 
@@ -59,6 +40,7 @@ namespace İmageProc
             int[,] Gy = new int[3, 3]{ {-1,-2,-1}, 
                                        { 0, 0, 0 }, 
                                        { 1, 2, 1}};
+
             int[,] TotalGx = new int[bitmap.Width, bitmap.Height];
             int[,] TotalGy = new int[bitmap.Width, bitmap.Height];
             int[,] GTotal = new int[bitmap.Width, bitmap.Height];
@@ -69,7 +51,7 @@ namespace İmageProc
             {
                 for (int j = 1; j < bitmap.Height - 1; j++)
                 {
-                    Color aa = bitmap.GetPixel(i - 1, j - 1);//[0][0]
+                    Color a = bitmap.GetPixel(i - 1, j - 1);//[0][0]
                     Color b = bitmap.GetPixel(i - 1, j);    //[0][1]
                     Color c = bitmap.GetPixel(i - 1, j + 1);//[0][2]
 
@@ -81,7 +63,7 @@ namespace İmageProc
                     Color l = bitmap.GetPixel(i + 1, j);    //[2][1]
                     Color n = bitmap.GetPixel(i + 1, j + 1); //[2][2]
 
-                    TotalGx[i, j] = Gx[0, 0] * aa.G + Gx[0, 1] * b.G + Gx[0, 2] * c.G
+                    TotalGx[i, j] = Gx[0, 0] * a.G + Gx[0, 1] * b.G + Gx[0, 2] * c.G
                                    + Gx[1, 0] * d.G + Gx[1, 1] * f.G + Gx[1, 2] * g.G
                                    + Gx[2, 0] * h.G + Gx[2, 1] * l.G + Gx[2, 2] * n.G;
 
@@ -93,7 +75,7 @@ namespace İmageProc
                 {
                     for (int j = 1; j < bitmap.Height - 1; j++)
                     {
-                        Color aa = bitmap.GetPixel(k - 1, j - 1);//[0][0]
+                        Color a = bitmap.GetPixel(k - 1, j - 1);//[0][0]
                         Color b = bitmap.GetPixel(k - 1, j);    //[0][1]
                         Color c = bitmap.GetPixel(k - 1, j + 1);//[0][2]
 
@@ -105,7 +87,7 @@ namespace İmageProc
                         Color l = bitmap.GetPixel(k + 1, j);    //[2][1]
                         Color n = bitmap.GetPixel(k + 1, j + 1); //[2][2]
 
-                        TotalGy[k, j] = Gy[0, 0] * aa.G + Gy[0, 1] * b.G + Gy[0, 2] * c.G
+                        TotalGy[k, j] = Gy[0, 0] * a.G + Gy[0, 1] * b.G + Gy[0, 2] * c.G
                                    + Gy[1, 0] * d.G + Gy[1, 1] * f.G + Gy[1, 2] * g.G
                                    + Gy[2, 0] * h.G + Gy[2, 1] * l.G + Gy[2, 2] * n.G;
 
@@ -131,14 +113,16 @@ namespace İmageProc
                 }
                 pictureBox2.Image = bitmap2;
             }
-        } 
-        private void label1_Click_1(object sender, EventArgs e)
+        }
+        private void Form1_Load(object sender, EventArgs e)
         {
-
-        } 
-        private void label2_Click(object sender, EventArgs e)
+        }
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
+        }
 
-        } 
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+        }
     }
 }

@@ -58,7 +58,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+      //      this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // saveFileDialog1
             // 
@@ -78,7 +78,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+           // this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label1
             // 
@@ -88,7 +88,7 @@
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 9;
             this.label1.Text = "Pure Image";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+         //   this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // button2
             // 
@@ -108,7 +108,7 @@
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 22;
             this.label2.Text = "Sobel Filter";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+      //      this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
